@@ -3,7 +3,7 @@ package org.example
 import java.io.File
 
 fun main() {
-    val fileName = "C:\\Users\\Edwin\\IdeaProjects\\AdventOfKode\\src\\main\\resources\\dayOneInput.txt"
+    val fileName = "src/main/resources/dayOneInput.txt"
     val input = File(fileName).readLines()
 
     val (firstNumbers, secondNumbers) = parseNumber(input)

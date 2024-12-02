@@ -3,7 +3,8 @@ package org.example
 import java.io.File
 
 fun main() {
-    val fileName = "C:\\Users\\Edwin\\IdeaProjects\\AdventOfKode\\src\\main\\resources\\dayTwoInput.txt"
+    val fileName = "src/main/resources/dayTwoInput.txt"
+
 
     try {
         val reports = readReportsFromFile(fileName)
