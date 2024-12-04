@@ -6,7 +6,7 @@ fun main() {
     val fileName = "src/main/resources/dayFourInput.txt"
     val file = File(fileName)
     val grid = wordSearchHelper(file)
-    val count = countWordOccurences(grid, "XMAS")
+    val count = countWordOccurences(grid)
 
     println(count)
 }
