@@ -22,7 +22,7 @@ fun wordSearchHelper(input: File): List<List<Char>> {
     return grid
 }
 
-fun countWordOccurences(grid: List<List<Char>>, word: String): Int {
+fun countWordOccurences(grid: List<List<Char>>): Int {
     if(grid.isEmpty() || grid[0].isEmpty()) return 0
     val numRows = grid.size
     val numCols = grid[0].size
